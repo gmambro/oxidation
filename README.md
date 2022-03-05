@@ -2,7 +2,8 @@ My personal list of useful Rust docs and crates.
 
 ## Cli 
 
- * [structopt](https://crates.io/crates/structopt) — Parse command line argument by defining a struct
+ * [structopt](https://crates.io/crates/structopt) — Parse command line argument by defining a struct. Based on [clap](https://crates.io/crates/clap) command line parser.
+ * [termion](https://crates.io/crates/termion) - Termion is a pure Rust, bindless library for low-level handling, manipulating and reading information about terminals.
 
 ## Configuration
 
@@ -16,7 +17,7 @@ My personal list of useful Rust docs and crates.
 * [rustfmt](https://github.com/rust-lang/rustfmt) — A Rust code formatter
 * [rustup](https://github.com/rust-lang/rustup) — the Rust toolchain installer
 * [tarpaulin](https://crates.io/crates/cargo-tarpaulin) — A code coverage tool designed for Rust. On MacOS run it with `docker run --security-opt seccomp=unconfined -v "${PWD}:/volume" xd009642/tarpaulin`
-* [Tokio Console](https://github.com/tokio-rs/console)  a debugger for async rust! 
+* [Tokio Console](https://github.com/tokio-rs/console) - A debugger for async rust! 
 
 
 ## Docs and articles
