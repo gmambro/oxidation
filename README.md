@@ -15,6 +15,7 @@ My personal list of useful Rust docs and crates.
 * [RLS (Rust Language Server)](https://github.com/rust-lang/rls) — A server that runs in the background, providing IDEs, editors, and other tools with information about Rust programs
 * [rustfmt](https://github.com/rust-lang/rustfmt) — A Rust code formatter
 * [rustup](https://github.com/rust-lang/rustup) — the Rust toolchain installer
+* [tarpaulin](https://crates.io/crates/cargo-tarpaulin) — A code coverage tool designed for Rust. On MacOS run it with `docker run --security-opt seccomp=unconfined -v "${PWD}:/volume" xd009642/tarpaulin`
 
 ## Docs and articles
 
