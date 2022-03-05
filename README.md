@@ -8,6 +8,12 @@ My personal list of useful Rust docs and crates.
 
   * [dotenv](https://crates.io/crates/dotenv) - This library is meant to be used on development or testing environments in which setting environment variables is not practical. It loads environment variables from a .env file, if available, and mashes those with the actual environment variables provided by the operative system.
 
+## Docs and articles
+
+ * [24daysofrust](https://zsiciarz.github.io/24daysofrust/index.html) - The "24 days of Rust" article series. Old (2016) but still interesting.
+ * [Rust patterns](https://rust-unofficial.github.io/patterns/)
+ * [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
+
 ## Error handling
 
  * [snafu](https://crates.io/crate/snafu) - SNAFU is a library to easily assign underlying errors into domain-specific errors while adding context.
