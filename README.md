@@ -16,6 +16,8 @@ My personal list of useful Rust docs and crates.
 * [rustfmt](https://github.com/rust-lang/rustfmt) — A Rust code formatter
 * [rustup](https://github.com/rust-lang/rustup) — the Rust toolchain installer
 * [tarpaulin](https://crates.io/crates/cargo-tarpaulin) — A code coverage tool designed for Rust. On MacOS run it with `docker run --security-opt seccomp=unconfined -v "${PWD}:/volume" xd009642/tarpaulin`
+* [Tokio Console](https://github.com/tokio-rs/console)  a debugger for async rust! 
+
 
 ## Docs and articles
 
