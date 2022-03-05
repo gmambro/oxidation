@@ -26,7 +26,7 @@ My personal list of useful Rust docs and crates.
  * [Rust patterns](https://rust-unofficial.github.io/patterns/)
 
 ## Error handling
-
+ * [miette](https://crates.io/crates/miette) A diagnostic library for Rust. It looks interesting especially for error handling in applications, and provide them with to get fancy report outputs. Think as an alternative to `anyhow`.
  * [snafu](https://crates.io/crate/snafu) - SNAFU is a library to easily assign underlying errors into domain-specific errors while adding context.
    * [Error handling guidelins](https://github.com/influxdata/influxdb_iox/blob/main/docs/style_guide.md#errors) from [InfluxDB IOx](https://github.com/influxdata/influxdb_iox)
 
