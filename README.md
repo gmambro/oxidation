@@ -2,7 +2,11 @@ My personal list of useful Rust docs and crates.
 
 ## Cli 
 
- * [structopt](https://crates.io/crates/structopt) — parse command line argument by defining a struct
+ * [structopt](https://crates.io/crates/structopt) — Parse command line argument by defining a struct
+
+## Configuration
+
+  * [dotenv](https://crates.io/crates/dotenv) - This library is meant to be used on development or testing environments in which setting environment variables is not practical. It loads environment variables from a .env file, if available, and mashes those with the actual environment variables provided by the operative system.
 
 ## Error handling
 
