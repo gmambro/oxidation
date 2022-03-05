@@ -24,6 +24,7 @@ My personal list of useful Rust docs and crates.
 
  * [24daysofrust](https://zsiciarz.github.io/24daysofrust/index.html) - The "24 days of Rust" article series. Old (2016) but still interesting.
  * [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
+ * [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
  * [Rust patterns](https://rust-unofficial.github.io/patterns/)
 
 ## Error handling
