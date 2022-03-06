@@ -30,10 +30,11 @@
 
 ## Docs and articles
 
- * Getting started
+ * Getting started / Learning
    * [The Rust programming language](https://doc.rust-lang.org/book/) - The Book!
    * [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html) - Learn Rust by solving exercises.
    * [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
+   * [dtolnay/proc-macro-workshop](https://github.com/dtolnay/proc-macro-workshop) - Learn to write Rust procedural macros.
  * Articles 
    * [24daysofrust](https://zsiciarz.github.io/24daysofrust/index.html) - The "24 days of Rust" article series. Old (2016) but still interesting.
  * Using Rust
