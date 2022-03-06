@@ -18,7 +18,8 @@
 
 
 ## Development tools
-* [dtolnay/cargo-expand](https://github.com/dtolnay/cargo-expand) — Expand macros in your source code
+* [cargo-chef](https://github.com/LukeMathWalker/cargo-chef) - A cargo-subcommand to speed up Rust Docker builds using Docker layer caching. 
+* [cargo-expand](https://github.com/dtolnay/cargo-expand) — Expand macros in your source code
 * [clippy](https://crates.io/crates/clippy) — Rust lints
 * [RLS (Rust Language Server)](https://github.com/rust-lang/rls) — A server that runs in the background, providing IDEs, editors, and other tools with information about Rust programs
 * [rustfmt](https://github.com/rust-lang/rustfmt) — A Rust code formatter
