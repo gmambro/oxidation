@@ -1,25 +1,25 @@
+use clap::{Parser, Subcommand};
 use dotenv::dotenv;
 use miette::{IntoDiagnostic, Result};
 use std::env;
-use structopt::StructOpt;
 use tracing::debug;
 
-#[derive(StructOpt)]
-#[structopt()]
-pub struct Opt {
+#[derive(Parser)]
+#[command(author, version, about, long_about = None)]
+pub struct Cli {
     /// Print debug info
-    #[structopt(short, long)]
+    #[arg(short, long)]
     verbose: bool,
 
     /// Foo identifier
-    #[structopt(long, default_value = "bar")]
+    #[arg(long, default_value = "bar")]
     foo: String,
 
-    #[structopt(subcommand)]
+    #[command(subcommand)]
     cmd: Command,
 }
 
-#[derive(StructOpt)]
+#[derive(Subcommand)]
 pub enum Command {
     /// Say hello
     Hello { name: String },
@@ -39,7 +39,7 @@ pub fn init_foo() -> Result<()> {
 #[tokio::main]
 async fn main() -> Result<()> {
     dotenv().ok();
-    let opt = Opt::from_args();
+    let opt = Cli::parse();
 
     let log_level = if opt.verbose { "DEBUG" } else { "INFO" };
     tracing_subscriber::fmt()
