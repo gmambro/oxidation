@@ -1,0 +1,12 @@
+[package]
+name = "cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+miette = "4.2.1"
+structopt = "0.3.26"
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1.31"
+tracing-subscriber = { version = "0.3.9", features = ["default", "env-filter"] } 

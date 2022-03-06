@@ -1,4 +1,10 @@
-My personal list of useful Rust docs and crates.
+# My personal list of useful Rust docs and crates.
+
+## Examples
+  * [Basic CLI with Tokio](cli_example)
+ 
+
+   ---
 
 ## Cli 
 
