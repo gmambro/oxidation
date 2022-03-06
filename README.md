@@ -2,7 +2,7 @@
 
 ## Examples
   * [Basic CLI with Tokio](cli_example)
- 
+  * [GitHub Actions CI Workflow](.github/workflows/ci-rust.yaml)
 
    ---
 
