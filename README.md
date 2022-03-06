@@ -42,3 +42,7 @@
 
  * [tracing](https://crates.io/crates/tracing) A scoped, structured logging and diagnostics system.
    * [tracing-subscriber](https://crates.io/crates/tracing-subscriber)  Utilities for implementing and composing `tracing` subscribers. 
+
+## RPC
+
+ * [tonic](https://crates.io/crates/tonic) A native RustgRPC client & server implementation with async/await support. 
