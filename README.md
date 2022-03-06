@@ -8,6 +8,7 @@
 
 ## Cli 
 
+ * [indicatif](https://crates.io/crates/indicatif) - A progress bar and cli reporting library for Rust 
  * [structopt](https://crates.io/crates/structopt) — Parse command line argument by defining a struct. Based on [clap](https://crates.io/crates/clap) command line parser.
  * [termion](https://crates.io/crates/termion) - Termion is a pure Rust, bindless library for low-level handling, manipulating and reading information about terminals.
 
