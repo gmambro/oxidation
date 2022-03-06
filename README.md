@@ -22,17 +22,22 @@
 * [clippy](https://crates.io/crates/clippy) — Rust lints
 * [RLS (Rust Language Server)](https://github.com/rust-lang/rls) — A server that runs in the background, providing IDEs, editors, and other tools with information about Rust programs
 * [rustfmt](https://github.com/rust-lang/rustfmt) — A Rust code formatter
-* [rustup](https://github.com/rust-lang/rustup) — the Rust toolchain installer
+* [rustup](https://github.com/rust-lang/rustup) — The Rust toolchain installer
 * [tarpaulin](https://crates.io/crates/cargo-tarpaulin) — A code coverage tool designed for Rust. On MacOS run it with `docker run --security-opt seccomp=unconfined -v "${PWD}:/volume" xd009642/tarpaulin`
 * [Tokio Console](https://github.com/tokio-rs/console) - A debugger for async rust! 
 
 
 ## Docs and articles
 
- * [24daysofrust](https://zsiciarz.github.io/24daysofrust/index.html) - The "24 days of Rust" article series. Old (2016) but still interesting.
- * [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
- * [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
- * [Rust patterns](https://rust-unofficial.github.io/patterns/)
+ * Getting started
+   * [The Rust programming language](https://doc.rust-lang.org/book/) - The Book!
+   * [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html) - Learn Rust by solving exercises.
+   * [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
+ * Articles 
+   * [24daysofrust](https://zsiciarz.github.io/24daysofrust/index.html) - The "24 days of Rust" article series. Old (2016) but still interesting.
+ * Using Rust
+   * [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
+   * [Rust patterns](https://rust-unofficial.github.io/patterns/)
 
 ## Error handling
  * [miette](https://crates.io/crates/miette) A diagnostic library for Rust. It looks interesting especially for error handling in applications, and provide them with to get fancy report outputs. Think as an alternative to `anyhow`.
