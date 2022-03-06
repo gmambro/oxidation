@@ -1,0 +1,34 @@
+name: CI checks
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: pr-${{ github.ref }}
+  cancel-in-progress: true
+  
+jobs:
+  
+  rust_build_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run tests
+        run: cargo test --verbose
+      - name: Build
+        run: cargo build --release --all-features
+        
+  clippy-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Rust Clippy
+        uses: actions-rs/clippy-check@v1 
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }} 
+          args: --all-features
